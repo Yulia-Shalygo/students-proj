@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5dab007266dc92228c67a275"},"login":"Ivan","pass":"qwerty","role":"methodist","name":"Иван","surname":"Иванов"}
+{"_id":{"$oid":"5dab015edab009228c3d5cfd"},"login":"Alex","pass":"qwerty","role":"student","name":"Алексей","surname":"Смирнов","group_id":{"$oid":"5daaae6ac80410166c249999"}}
+{"_id":{"$oid":"5dac2905c34db33dd8ac4e21"},"login":"Nastya","pass":"qwerty","role":"student","name":"Анастасия","surname":"Семенова","group_id":{"$oid":"5daaae6ac80410166c249999"}}
+{"_id":{"$oid":"5dac29a3c34db33dd8ac4e22"},"login":"Dmitry","pass":"qwerty","role":"student","name":"Дмитрий","surname":"Сидиоров","group_id":{"$oid":"5da993b4efa70b18289bb291"}}

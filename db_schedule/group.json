@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5da993b4efa70b18289bb291"},"group_num":{"$numberInt":"200100"},"education_type":"Очное","lecturer_id":{"$oid":"5da99401efa70b18289bb292"}}
+{"_id":{"$oid":"5daaae6ac80410166c249999"},"group_num":{"$numberInt":"200200"},"education_type":"Очное","lecturer_id":{"$oid":"5da99401efa70b18289bb292"}}

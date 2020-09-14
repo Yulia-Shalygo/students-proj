@@ -1,0 +1,43 @@
+<div id="wrapper">
+
+    <div id="header">
+        <div class="nav">
+            <ul>
+                <li><a class="active" href="schedule">Расписание</a></li>
+                <li><a href="/">Выход</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- #header -->
+
+    <div id="content">
+        <div class="card w-80">
+            <div class="container">
+                <h1 style="text-align: center">Расписание экзаменов</h1>
+            </div>
+        </div>
+        {{# each items }}
+        <div class="card w-80">
+            <div class="container">
+                <h1>{{ this.course_id }}</h1>
+                <div class="styling_text" id="item_1">
+                    <p>Дата и время: {{ this.date }}</p>
+                </div>
+                <div class="styling_text" id="item_2">
+                    <p>Дисциплина: {{ this.course }}</p>
+                </div>
+                <div class="styling_text" id="item_3">
+                    <p>Вид контроля: {{ this.control }}</p>
+                </div>
+                <div class="styling_text" id="item_4">
+                    <p>Преподаватель: {{ this.lecturer }}</p>
+                </div>
+                <div class="styling_text" id="item_5">
+                    <p>Текущая успеваемость: {{ this.rating }}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+

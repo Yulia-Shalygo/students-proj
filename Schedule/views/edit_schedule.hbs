@@ -1,0 +1,63 @@
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<div id="wrapper">
+
+    <div id="header">
+        <div class="nav">
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a class="active" href="schedule_table">Расписание</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- #header -->
+
+    <div id="content">
+        <div class="card w-80">
+            <div class="container">
+                <h1 style="text-align: center">Изменить расписание</h1>
+            </div>
+        </div>
+        <form action="edit_schedule/update" method="post">
+            <div class="card w-80">
+                <div class="container">
+                    <input style="display: none" type="text" id="id" name="id" value={{selected_schedule._id}}>
+                    <label for="select_group"><b>Группа </b></label>
+                    <div class="custom-select">
+                        <select id="select_group" name="select_group">
+                            <option value={{selected_schedule.group_id}}> {{selected_params.group_num}}</option>
+                            {{# each groups }}
+                                <option value={{this._id }}> {{this.name}} </option>
+                            {{/each}}
+                        </select>
+                    </div>
+                    <label for="date_time"><b>Дата и время</b></label>
+                    <input type="datetime-local"  id="date_time" name="date_time" value={{selected_params.date_time}}>
+                    <!--<input type="datetime-local"  id="date_time" name="date_time" value="2017-06-01T08:30">-->
+                    <label for="select_course"><b>Дисциплина</b></label>
+                    <div class="custom-select">
+                        <select id="select_course" name="select_course">
+                            <option value={{selected_schedule.course_id}}> {{selected_params.course_name}}</option>
+                            {{# each courses }}
+                                <option value={{this._id }}> {{this.name}}</option>
+                            {{/each}}
+                        </select>
+                    </div>
+                    <label for="select_lecturer"><b>Преподаватель</b></label>
+                    <div class="custom-select" >
+                        <select id="select_lecturer" name="select_lecturer">
+                            <option value={{selected_schedule.lecturer_id}}> {{selected_params.lecturer_name}}</option>
+                            {{# each lecturers }}
+                                <option value={{this._id }}> {{this.name}}</option>
+                            {{/each}}
+                        </select>
+                    </div>
+                    <button type="submit">Изменить расписание</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

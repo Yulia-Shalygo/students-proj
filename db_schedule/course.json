@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5da9aaadefa70b18289bb297"},"name":"Основы программирования","hours_num1":{"$numberInt":"120"},"hours_num2":{"$numberInt":"120"},"control":"Зачет"}
+{"_id":{"$oid":"5da9ac92a80c60182858f96b"},"name":"Объектно-ориентированное программирование","hours_num1":{"$numberInt":"120"},"hours_num2":{"$numberInt":"120"},"control":"Экзамен"}
+{"_id":{"$oid":"5dac2758c34db33dd8ac4e1f"},"name":"Базы данных","hours_num1":{"$numberInt":"120"},"hours_num2":{"$numberInt":"120"},"control":"Зачет"}

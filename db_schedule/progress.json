@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5da9ae30efa70b18289bb299"},"course_id":{"$oid":"5da9ac92a80c60182858f96b"},"user_id":{"$oid":"5dab015edab009228c3d5cfd"},"rating":{"$numberDouble":"4.2"}}
+{"_id":{"$oid":"5dac2835c34db33dd8ac4e20"},"course_id":{"$oid":"5da9aaadefa70b18289bb297"},"user_id":{"$oid":"5dab015edab009228c3d5cfd"},"rating":{"$numberDouble":"4.4"}}
+{"_id":{"$oid":"5dac29dac34db33dd8ac4e23"},"course_id":{"$oid":"5da9aaadefa70b18289bb297"},"user_id":{"$oid":"5dac2905c34db33dd8ac4e21"},"rating":{"$numberDouble":"4.6"}}
+{"_id":{"$oid":"5dac29efc34db33dd8ac4e24"},"course_id":{"$oid":"5da9ac92a80c60182858f96b"},"user_id":{"$oid":"5dac2905c34db33dd8ac4e21"},"rating":{"$numberInt":"5"}}
+{"_id":{"$oid":"5dac2b7bc34db33dd8ac4e25"},"course_id":{"$oid":"5da9ac92a80c60182858f96b"},"user_id":{"$oid":"5dac29a3c34db33dd8ac4e22"},"rating":{"$numberDouble":"3.8"}}
+{"_id":{"$oid":"5dac2b8dc34db33dd8ac4e26"},"course_id":{"$oid":"5da9aaadefa70b18289bb297"},"user_id":{"$oid":"5dac29a3c34db33dd8ac4e22"},"rating":{"$numberDouble":"4.2"}}
+{"_id":{"$oid":"5dac2bd7c34db33dd8ac4e27"},"course_id":{"$oid":"5dac2758c34db33dd8ac4e1f"},"user_id":{"$oid":"5dac29a3c34db33dd8ac4e22"},"rating":{"$numberDouble":"4.5"}}

@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5da99ebfefa70b18289bb294"},"full_name":"Иванов Иван Иванович","academic_degree":"Профессор","academic_rank":"Профессор","department_id":{"$oid":"5da9a9f7efa70b18289bb296"}}
+{"_id":{"$oid":"5da9a358a80c60182858f96a"},"full_name":"Петров Петр Петрович","academic_degree":"Профессор","academic_rank":"Профессор","department_id":{"$oid":"5da9a9f7efa70b18289bb296"}}
+{"_id":{"$oid":"5dac2c36c34db33dd8ac4e28"},"full_name":"Морозова Анна Львовна","academic_degree":"Доцент","academic_rank":"Ассистент","department_id":{"$oid":"5da9a9f7efa70b18289bb296"}}
